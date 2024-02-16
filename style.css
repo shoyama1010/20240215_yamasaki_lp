@@ -1,0 +1,415 @@
+@charset "utf-8";
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+/* header */
+.header-wrapper {
+    /* width: 1120px; */
+    width: 1000px;
+    margin: 0 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-logo {
+    display: flex;
+    max-width: 100%;
+    width: 15%;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    padding: 0px;
+    font-size: 0.8rem;
+    color: black;
+    /* background: #d9d9d9; */
+    background: white;
+
+    list-style-type: none;
+    margin-top: 10px;
+    margin: 0;
+}
+
+.header-navi {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* ↑li 間のギャップ指定 */
+}
+
+
+/* ＊＊＊メイン＊＊＊ */
+.main-view {
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.main-view img {
+    width: 60%;
+    height: auto;
+    margin-left: 400px;
+    /* ↑左から画像幅をずらす */
+}
+
+/* キャッチコピー１（大文字） */
+.catch-copy1 {
+    position: absolute;
+    width: 500px;
+    margin-left: 200px;
+    top: 120px;
+    height: auto;
+    font-size: 30px;
+}
+
+/* キャッチコピー2（大文字） */
+.catch-copy2 {
+    position: absolute;
+    width: 300px;
+    margin-left: 200px;
+    top: 200px;
+    height: auto;
+    font-size: 30px;
+}
+
+/* キャッチコピー3（子文字） */
+.catch-copy3 {
+    position: absolute;
+    width: 300px;
+    margin-left: 200px;
+    top: 280px;
+    height: auto;
+    font-size: 15px;
+}
+
+/* キャッチコピー4（子文字） */
+.catch-copy4 {
+    position: absolute;
+    width: 300px;
+    margin-left: 200px;
+    top: 320px;
+    height: auto;
+    font-size: 15px;
+}
+
+
+/* ****** NEWS ****** */
+
+.news-logo {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.news-nav ul {
+    /* display: flex; */
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+    margin-left: 120px;
+}
+
+.news-nav li {
+    margin-left: 225px;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+    border-top: 1px solid gray;
+    height: 40px;
+    right: 60px;
+    text-align: center;
+    line-height: 3.0;
+    display: inline-block;
+    /* ↑　下線の左横を空白にする */
+    /* border-bottom: 1px solid gray; */
+}
+
+.news-nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* ニュースボタン */
+.button {
+    font-size: 5px;
+    background-color: #c76781;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+
+/* ****ABOUT ******/
+
+.about-logo {
+    margin-left: 400px;
+    margin-top: 35px;
+    /* margin-bottom: auto; */
+}
+
+.about-view {
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.about-view img {
+    width: 25%;
+    height: auto;
+    margin-left: 650px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.text-nav {
+    position: absolute;
+    /* width: 120px; */
+    margin-left: 200px;
+    top: 850px;
+    height: auto;
+    font-size: 15px;
+}
+
+.text {
+    margin-bottom: 50px;
+    margin-left: 120px;
+}
+
+/* ********SERVICE******** */
+.service-logo {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.sevice-wrapper {
+    background-color: #d9d9d9;
+    width: 1000px;
+    height: auto;
+}
+
+.grid__parent {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.grid-1 {
+    background-color: #c71585;
+}
+
+.grid-1 img {
+    width: 45%;
+}
+
+.grid-2 img {
+    width: 50%;
+}
+
+.box1 {
+    background-color: #c71585;
+}
+
+.grid-1  {
+    text-align: center;
+}
+
+.box2 {
+    background-color: #da70d6;
+}
+
+.box3 {
+    background-color: #ffb6c1;
+}
+
+
+/* ********ブログ*************** */
+
+.blog-logo {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/* card_contentの親 */
+.practice__card {
+    width: 70%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+ /* Brogマーク*/
+ .card__content {
+     padding: 15px 25px;
+     /* position: absolute; */
+     /* bottom: 30px; */
+ }
+
+.practice__card:last-child {
+    margin-bottom: 0;
+}
+
+.card__img img {
+    width: 100%;
+}
+
+.card__ttl {
+    font-size: 12px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.card__cat {
+    padding: 5px 10px;
+    background:#c71585 ;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 35px;
+}
+
+.tag {
+    font-size: 12px;
+    text-align: right;
+}
+
+.card__tag {
+    display: inline-block;
+    color: #008888;
+    margin-left: 30px;
+}
+
+.card__date {
+    display: inline-block;
+    margin-left: 15px;
+    color: #888888;
+}
+
+/* レスポンシブ (1000px以上)*/
+@media screen and (min-width: 1000px) {
+    .practice__card {
+        width: 30%;
+        margin-bottom: 0;
+    }
+}
+
+
+/* **************会社概要************** */
+.company-log {
+    margin-left: 250px;
+    margin-top: 35px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 250px;
+    margin-top: 35px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #dedede;
+    text-align: left;
+}
+
+/* ***********問い合わせ******** */
+.contact-pic {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.contact-pic img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.plactice__btn {
+    position: relative;
+    background-color: #c71585;
+    width: 200px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.plactice__btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(../img/mail.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+}
+
+.plactice__btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    background: url(../img/download__icon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.contact-memo {
+    margin-top: 60px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.p {
+    border-left: 2px;
+}
+
