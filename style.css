@@ -36,7 +36,6 @@ header {
     color: black;
     /* background: #d9d9d9; */
     background: white;
-
     list-style-type: none;
     margin-top: 10px;
     margin: 0;
@@ -105,48 +104,59 @@ header {
     font-size: 15px;
 }
 
+.catch-copy1 {
+    color: #c71585;
+}
+
+.catch-copy3 {
+    color:#c71585;
+}
 
 /* ****** NEWS ****** */
 
 .news-logo {
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top:30px;
 }
 
-.news-nav ul {
-    /* border-top: 1px solid gray; */
-    border-bottom: 1px solid gray;
+.news-nav {
     margin-left: 120px;
+    margin: 0 auto ;
+    margin-top: 20px;
 }
 
 .news-nav li {
+    list-style: none;
     margin-left: 225px;
     /* margin-top: 5px; */
     margin-bottom: 5px;
     height: 40px;
     right: 60px;
-    text-align: center;
+    font-size: 15px;
     line-height: 3.0;
-    display: inline-block;
+    /* display: inline-block; */
     /* ↑　下線の左横を空白にする */
-    border-top: 1px solid gray;
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid gray;
+}
+
+.news-nav li:first-child {
+    border-top: 1px solid;
+}
+
+.news-nav li:last-child {
+    border-bottom: 1px solid;
 }
 
 .news-nav a {
     margin-left: 20px;
     margin-right: 20px;
-
 }
-
-.under {
-    border-bottom: solid;
-}
-
 
 
 /* ニュースボタン */
 .button {
-    font-size: 5px;
+    font-size: 10px;
     background-color: #c76781;
     color: white;
     border-radius: 8px;
@@ -155,11 +165,14 @@ header {
 
 
 /* ****ABOUT ******/
+.about-wrapper {
+    background-color: #dedede;
+}
 
 .about-logo {
     margin-left: 400px;
-    margin-top: 35px;
-    /* margin-bottom: auto; */
+    margin-top: 40px;
+    padding-top: 15px;
 }
 
 .about-view {
@@ -179,10 +192,12 @@ header {
 .text-nav {
     position: absolute;
     /* width: 120px; */
-    margin-left: 200px;
+    margin-left: 150px;
     top: 850px;
+    margin-top: 20px;
     height: auto;
     font-size: 15px;
+    padding-top: 20px;
 }
 
 .text {
@@ -232,10 +247,11 @@ header {
 
 .grid-1 {
     text-align: center;
+    color: white;
 }
 
 .box2 {
-    background-color: #da70d6;
+    background-color: #c016ba;
     position: relative;
 }
 
@@ -244,10 +260,11 @@ header {
     position: absolute;
     top: 20px;
     left: 170px;
+    color: white;
 }
 
 .box3 {
-    background-color: #ffb6c1;
+    background-color: #c97883;
     position: relative;
 }
 
@@ -256,34 +273,44 @@ header {
     position: absolute;
     top: 20px;
     left: 170px;
+    color: white;
 }
 
 
 /* ********ブログ*************** */
+.blog-wrapper {
+    background-color: #dedede;
+}
 
 .blog-logo {
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .flex__item {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .wrap {
-    max-width: 800px;
+    width: 700px;
+    /* max-width: 800px; */
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 /* card_contentの親 */
 .practice__card {
-    width: 70%;
+    background-color: white;
+    width: 80%;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
     position: relative;
+    bottom: 20px;
+    margin-right: 20px;
+    /* margin-left: 20px; */
 }
 
 .card__content {
@@ -322,19 +349,17 @@ header {
 
 .tag {
     font-size: 12px;
-    text-align: right;
+    display: flex;
 }
 
 .card__tag {
-    display: inline-block;
-    color: #008888;
-    margin-left: 30px;
+    /* display: inline-block; */
+    margin-left: 20px;
 }
 
 .card__date {
     display: inline-block;
-    margin-left: 15px;
-    color: #888888;
+    margin-left: 5px;
 }
 
 /* レスポンシブ (1000px以上)*/
@@ -355,7 +380,7 @@ table {
     width: 60%;
     border-collapse: collapse;
     margin-left: 250px;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 table th,
@@ -421,7 +446,7 @@ table th {
     font-weight: bold;
     text-decoration: none;
     border-radius: 25px;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .plactice__btn::before {
@@ -454,11 +479,30 @@ table th {
     margin-top: 60px;
     /* margin-left: 300px; */
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 
-.p {
-    border-left: 2px;
+.line {
+    width: 80px;
+    /*親要素の幅指定*/
+    position: relative;
+    /*絶対値指定の親要素に必要*/
+}
+
+.border {
+    position: absolute;
+    /*絶対位置指定*/
+    left: 500px;
+    /*横位置の指定*/
+    top: 20%;
+    /*縦位置の指定*/
+    margin-top: 30px;
+    background: #000000;
+    /*線の色指定*/
+    width: 1px;
+    /*線の幅指定*/
+    height: 100%;
+    /*線の高さ指定*/
 }
 
 /* <!-- .......フッター・・・・ --> */
