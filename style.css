@@ -65,7 +65,9 @@ header {
 .main-view img {
     width: 60%;
     height: auto;
-    margin-left: 400px;
+    /* margin-left: 400px; */
+    margin-left: 600px
+    ;
     /* ↑左から画像幅をずらす */
 }
 
