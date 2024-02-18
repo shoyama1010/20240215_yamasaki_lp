@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* * {outline: 1px solid red !important;} */
+* {outline: 1px solid red !important;}
 
 body {
     width: 1000px;
@@ -217,6 +217,7 @@ header {
 .sevice-wrapper {
     background-color: #d9d9d9;
     width: 1000px;
+
     height: auto;
     /* bottom: 10px; */
 }
@@ -313,8 +314,7 @@ header {
     margin-bottom: 30px;
     position: relative;
     bottom: 20px;
-    /* margin-right: 10px; */
-    /* margin-left: 20px; */
+    border-radius: 10px 10px 0 0;
 }
 
 .card__content {
@@ -329,6 +329,7 @@ header {
 
 .card__img img {
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .card__ttl {
