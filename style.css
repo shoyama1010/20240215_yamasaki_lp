@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* * {outline: 1px solid red !important;} */
+
 body {
     width: 1000px;
     margin: auto;
@@ -109,34 +111,35 @@ header {
 }
 
 .catch-copy3 {
-    color:#c71585;
+    color: #c71585;
 }
 
 /* ****** NEWS ****** */
 
 .news-logo {
     margin-left: 200px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .news-nav {
-    margin-left: 120px;
-    margin: 0 auto ;
+    /* margin-left: 90px; */
+    margin-right: 50px;
+    /* margin: 0 auto ; */
     margin-top: 20px;
 }
 
 .news-nav li {
     list-style: none;
-    margin-left: 225px;
+    margin-left: 200px;
     /* margin-top: 5px; */
     margin-bottom: 5px;
     height: 40px;
-    right: 60px;
+    margin-right: 130px;
+    /* right: 50px; */
     font-size: 15px;
     line-height: 3.0;
     /* display: inline-block; */
     /* ↑　下線の左横を空白にする */
-    /* border-top: 1px solid gray; */
     border-bottom: 1px solid gray;
 }
 
@@ -205,7 +208,7 @@ header {
     margin-left: 120px;
 }
 
-/* ********SERVICE******** */
+/* **********サービス********** */
 .service-logo {
     margin-left: 200px;
     margin-top: 30px;
@@ -215,15 +218,16 @@ header {
     background-color: #d9d9d9;
     width: 1000px;
     height: auto;
+    /* bottom: 10px; */
 }
 
 .grid__parent {
     width: 1000px;
     height: auto;
     display: flex;
-    margin-left: 200px;
-    margin-top: 15px;
-    font-size: 15px;
+    margin-top: 20px;
+    font-size: 10px;
+    justify-content: center;
 }
 
 .grid-1 {
@@ -231,14 +235,14 @@ header {
 }
 
 .grid-1 img {
-    width: 45%;
+    width: 40%;
     height: auto;
 }
 
 .grid-2 img {
-    width: 45%;
+    width: 40%;
     height: auto;
-    margin-right: 70px;
+    padding-right: 5px;
 }
 
 .box1 {
@@ -256,10 +260,10 @@ header {
 }
 
 .text2 {
-    margin-top: 30px;
+    margin-top: 10px;
     position: absolute;
-    top: 20px;
-    left: 170px;
+    top: 30px;
+    left: 125px;
     color: white;
 }
 
@@ -269,10 +273,10 @@ header {
 }
 
 .text3 {
-    margin-top: 30px;
+    margin-top: 10px;
     position: absolute;
-    top: 20px;
-    left: 170px;
+    top: 30px;
+    left: 125px;
     color: white;
 }
 
@@ -304,12 +308,12 @@ header {
 /* card_contentの親 */
 .practice__card {
     background-color: white;
-    width: 80%;
+    width: 70%;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
     position: relative;
     bottom: 20px;
-    margin-right: 20px;
+    /* margin-right: 10px; */
     /* margin-left: 20px; */
 }
 
@@ -370,6 +374,23 @@ header {
     }
 }
 
+.blog_btn {
+    background-color: white;
+    border: 2px solid pink;
+    width: 100px;
+    height: 5px;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    color: pink;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    /* margin: 80px auto; */
+    margin-left: 420px;
+}
+
 /* **************会社概要************** */
 .company-log {
     margin-left: 250px;
@@ -377,7 +398,7 @@ header {
 }
 
 table {
-    width: 60%;
+    width: 50%;
     border-collapse: collapse;
     margin-left: 250px;
     margin-top: 15px;
