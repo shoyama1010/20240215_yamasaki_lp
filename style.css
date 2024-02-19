@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-/* * {outline: 1px solid red !important;} */
+* {
+    outline: 1px solid red !important;
+}
 
 body {
     /* width: 1000px; */
@@ -36,7 +38,7 @@ body {
 header {
     display: flex;
     padding: 0px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: black;
     /* background: #d9d9d9; */
     background: white;
@@ -57,16 +59,16 @@ header {
 /* ＊＊＊メイン＊＊＊ */
 .main-view {
     position: relative;
-    width: 1500px;
-
+    /* width: 1500px; */
     height: auto;
 }
 
 .main-view img {
     width: 60%;
     height: auto;
-    /* margin-left: 400px; */
-    margin-left: 600px
+    margin-left: 40%;
+
+    /* margin-left: 600px */
     ;
     /* ↑左から画像幅をずらす */
 }
@@ -74,41 +76,44 @@ header {
 /* キャッチコピー１（大文字） */
 .catch-copy1 {
     position: absolute;
-    width: 500px;
-    margin-left: 200px;
+    width: 600px;
+    /* margin-left: 400px; */
+    /* right: 500px; */
+    left: 450px;
     top: 120px;
     height: auto;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 /* キャッチコピー2（大文字） */
 .catch-copy2 {
     position: absolute;
-    width: 300px;
-    margin-left: 200px;
+    width: 600px;
+    left: 450px;
+
     top: 200px;
     height: auto;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 /* キャッチコピー3（子文字） */
 .catch-copy3 {
     position: absolute;
     width: 300px;
-    margin-left: 200px;
+    left: 450px;
     top: 280px;
     height: auto;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /* キャッチコピー4（子文字） */
 .catch-copy4 {
     position: absolute;
     width: 300px;
-    margin-left: 200px;
-    top: 320px;
+    left: 450px;
+    top: 350px;
     height: auto;
-    font-size: 15px;
+    font-size: 1vw;
 }
 
 .catch-copy1 {
@@ -122,7 +127,7 @@ header {
 /* ****** NEWS ****** */
 
 .news-logo {
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: 30px;
 }
 
@@ -135,7 +140,7 @@ header {
 
 .news-nav li {
     list-style: none;
-    margin-left: 200px;
+    margin-left: 400px;
     /* margin-top: 5px; */
     margin-bottom: 5px;
     height: 40px;
@@ -177,34 +182,41 @@ header {
 }
 
 .about-logo {
-    margin-left: 400px;
+    margin-left: 700px;
     margin-top: 40px;
     padding-top: 15px;
+    font-size: 15px;
 }
 
 .about-view {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    /* ↑ 画像とtextを横並び */
     width: 1500px;
-
     height: auto;
 }
 
-.about-view img {
+.view img {
     width: 25%;
     height: auto;
-    margin-left: 550px;
+    margin-left: 850px;
+
     margin-bottom: 30px;
     margin-top: 40px;
 }
 
+
 .text-nav {
-    position: absolute;
+    /* position: absolute; */
     /* width: 120px; */
-    margin-left: 200px;
+    left: 200px;
+
     top: 850px;
-    margin-top: 40px;
+    margin-top: 250px;
+
     height: auto;
-    font-size: 10px;
+    font-size: 15px;
+
     padding-top: 20px;
 }
 
@@ -215,7 +227,8 @@ header {
 
 /* **********サービス********** */
 .service-logo {
-    margin-left: 200px;
+    margin-left: 400px;
+
     margin-top: 30px;
 }
 
@@ -367,7 +380,7 @@ header {
 .card__tag {
     /* display: inline-block; */
     margin-left: 20px;
-    
+
 }
 
 .card__date {
