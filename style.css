@@ -77,7 +77,7 @@ header {
 .catch-copy1 {
     position: absolute;
     width: 600px;
-    
+
     left: 450px;
     top: 120px;
     height: auto;
@@ -88,8 +88,8 @@ header {
 .catch-copy2 {
     position: absolute;
     width: 600px;
-    left: 450px;
 
+    left: 450px;
     top: 200px;
     height: auto;
     font-size: 3vw;
@@ -192,6 +192,8 @@ header {
     /* ↑ 画像とtextを横並び */
     /* width: 1500px; */
     height: auto;
+    justify-content: center;
+    /* ↑真ん中に寄せる */
 }
 
 .view {
@@ -200,7 +202,7 @@ header {
 
 .view img {
     width: 50%;
-    height: auto;   
+    height: auto;
 
     bottom: 30px;
     margin-bottom: 40px;
@@ -239,27 +241,36 @@ header {
     /* bottom: 10px; */
 }
 
+/* グリット（３つ合体分） */
 .grid__parent {
     /* width: 1500px; */
-    
     height: auto;
     display: flex;
     margin-top: 20px;
-    
+
     font-size: 10px;
     justify-content: center;
 }
 
+/* グリット左 */
 .grid-1 {
     background-color: #c71585;
-}
+    text-align: center;
+    color: white;
+    width: 25%;
 
+}
 .grid-1 img {
     width: 50%;
     height: auto;
     margin-top: 10px;
 }
 
+.grid-2 {
+    width: 25%;
+}
+
+/* グリット右 */
 .grid-2 img {
     width: 50%;
     height: auto;
@@ -271,11 +282,6 @@ header {
     background-color: #c71585;
 }
 
-.grid-1 {
-    text-align: center;
-    color: white;
-}
-
 .box2 {
     background-color: #c016ba;
     position: relative;
@@ -284,8 +290,8 @@ header {
 .text2 {
     margin-top: 10px;
     position: absolute;
-    top: 30px;
-    left: 125px;
+    top: 100px;
+    left: 180px;
     color: white;
 }
 
@@ -297,8 +303,8 @@ header {
 .text3 {
     margin-top: 10px;
     position: absolute;
-    top: 30px;
-    left: 125px;
+    top: 100px;
+    left: 180px;
     color: white;
 }
 
