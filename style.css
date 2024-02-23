@@ -131,11 +131,11 @@ header {
 }
 
 .news-nav   {
-    /* margin-right: 50px; */
-    
+    width: fit-content
+    /* ↑子要素の幅に合わせる */
     margin-top: 20px;
-    /* justify-content: center; */
-    /* margin: 0 auto; */
+    
+    margin: 0 auto;
 }
 
 .news-nav li {
