@@ -126,7 +126,9 @@ header {
 /* ****** NEWS ****** */
 
 .news-logo {
-    margin-left: 400px;
+    /* margin-left: 400px; */
+    margin-left: 30%;
+
     margin-top: 30px;
 }
 
@@ -144,8 +146,7 @@ header {
     /* margin-top: 5px; */
     margin-bottom: 5px;
     height: 40px;
-    /* margin-right: 130px; */
-    /* right: 50px; */
+    
     font-size: 15px;
     line-height: 3.0;
     display: inline-block;
@@ -182,9 +183,10 @@ header {
 }
 
 .about-logo {
-    margin-left: 700px;
-    margin-top: 40px;
-    padding-top: 15px;
+    /* margin: auto; */
+    /* margin-top: 40px; */
+    margin: 0 40%;
+    /* padding-top: 15px; */
     font-size: 15px;
 }
 
@@ -193,17 +195,18 @@ header {
     /* ↑ 画像とtextを横並び */
     /* width: 1500px; */
     height: auto;
-    /* justify-content: center; */
+    justify-content: center;
     /* ↑真ん中に寄せる */
-    text-align: left;
+    /* text-align: left; */
 }
 
 .view {
     margin-top: 80px;
+    margin-left: 15%;
 }
 
 .view img {
-    width: 50%;
+    width: 40%;
     height: auto;
 
     bottom: 30px;
@@ -212,19 +215,20 @@ header {
 
 
 .text-nav {
-    width: 1500px;
+    /* width: 1500px; */
+    margin:auto 0;
     height: auto;
     margin-left: 350px;
     margin-top: 60px;
     height: auto;
     font-size: 15px;
     padding-top: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .text {
     margin-bottom: 50px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 /* **********サービス********** */
