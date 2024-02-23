@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 * {
-    /* outline: 1px solid red !important; */
+    outline: 1px solid red !important;
 }
 
 body {
@@ -130,13 +130,12 @@ header {
     margin-top: 30px;
 }
 
-.news-nav {
-    /* margin-left: 90px; */
-    margin-right: 50px;
-
+.news-nav   {
+    /* margin-right: 50px; */
+    
     margin-top: 20px;
     /* justify-content: center; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .news-nav li {
@@ -149,7 +148,7 @@ header {
     /* right: 50px; */
     font-size: 15px;
     line-height: 3.0;
-    /* display: inline-block; */
+    display: inline-block;
     /* ↑　下線の左横を空白にする */
     border-bottom: 1px solid gray;
 }
@@ -194,8 +193,9 @@ header {
     /* ↑ 画像とtextを横並び */
     /* width: 1500px; */
     height: auto;
-    justify-content: center;
+    /* justify-content: center; */
     /* ↑真ん中に寄せる */
+    text-align: left;
 }
 
 .view {
@@ -215,12 +215,11 @@ header {
     width: 1500px;
     height: auto;
     margin-left: 350px;
-
     margin-top: 60px;
-
     height: auto;
     font-size: 15px;
     padding-top: 20px;
+    text-align: left;
 }
 
 .text {
@@ -322,11 +321,11 @@ header {
 
 .flex__item {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 10px;
     width: 30%;
-    
+    gap: 40px;
 }
 
 .wrap {
