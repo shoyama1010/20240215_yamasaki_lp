@@ -1,11 +1,9 @@
 @charset "utf-8";
 
-* {
-    /* outline: 1px solid red !important; */
-}
+* { outline: 1px solid red !important;}
 
 body {
-    /* width: 1000px; */
+    /* width: 1500px; */
     max-width: 1500px;
     min-width: 1000px;
     margin: auto;
@@ -98,7 +96,7 @@ header {
     position: absolute;
     /* width: 600px; */
     width: 60%;
-  /* ↑画像の大きさと合わせる */
+    /* ↑画像の大きさと合わせる */
     left: 450px;
     top: 200px;
     height: auto;
@@ -110,7 +108,7 @@ header {
     position: absolute;
     /* width: 300px; */
     width: 60%;
-        /* ↑画像の大きさと合わせる */
+    /* ↑画像の大きさと合わせる */
     left: 450px;
     top: 280px;
     height: auto;
@@ -144,12 +142,12 @@ header {
     margin-top: 30px;
 }
 
-.news-nav   {
+.news-nav {
     width: fit-content
-    /* ↑子要素の幅に合わせる */
-    margin-top: 20px;
+        /* ↑子要素の幅に合わせる */
+        margin-top: 20px;
     width: 100%;
-    
+
     margin: 10px auto;
 }
 
@@ -159,7 +157,7 @@ header {
     margin-left: 30%;
     margin-bottom: 5px;
     height: 40px;
-    width: 40%;
+    width: 60%;
 
     font-size: 15px;
     line-height: 3.0;
@@ -236,7 +234,7 @@ header {
     /* width: 1500px; */
     width: 60%;
 
-    margin:auto 0;
+    margin: auto 0;
     height: auto;
     margin-left: 250px;
 
@@ -256,6 +254,7 @@ header {
 .service-logo {
     margin-left: 400px;
     margin-top: 30px;
+    margin: 3% 20%;
 }
 
 .sevice-wrapper {
@@ -343,6 +342,7 @@ header {
 .blog-logo {
     margin-left: 200px;
     margin-top: 40px;
+    margin:3% 20%;
 }
 
 .flex__item {
@@ -352,7 +352,7 @@ header {
     margin-top: 10px;
     width: 30%;
     gap: 40px;
-    
+
 }
 
 .wrap {
@@ -449,6 +449,7 @@ header {
     /* margin: 80px auto; */
     margin-left: 600px;
     
+    margin-top: 15px;
 }
 
 /* **************会社概要************** */
@@ -461,6 +462,7 @@ header {
 .company-log {
     margin-left: 250px;
     margin-top: 35px;
+    margin: 3% 25%;
 }
 
 table {
