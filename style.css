@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-* { outline: 1px solid red !important;}
+/* * { outline: 1px solid red !important;} */
 
 body {
     /* width: 1500px; */
@@ -448,7 +448,7 @@ header {
     border-radius: 25px;
     /* margin: 80px auto; */
     margin-left: 600px;
-    
+
     margin-top: 15px;
 }
 
