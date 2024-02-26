@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-* { outline: 1px solid red !important;}
+/* * { outline: 1px solid red !important;} */
 
 body {
     /* width: 1500px; */
@@ -285,7 +285,7 @@ header {
     background-color: #c71585;
     text-align: center;
     color: white;
-    /* width: 30%; */
+    width: 30%;
     max-width: 1000px;
 }
 
@@ -459,6 +459,7 @@ header {
     font-weight: bold;
     text-decoration: none;
     border-radius: 25px;
+    
     margin: auto;
     /* margin-left: 600px; */
 
