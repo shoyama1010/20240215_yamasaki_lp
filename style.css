@@ -51,6 +51,7 @@ header {
     justify-content: space-between;
     gap: 20px;
     /* ↑li 間のギャップ指定 */
+    
 }
 
 
@@ -59,19 +60,17 @@ header {
 .main-view {
     position: relative;
     width: 1500px;
-
+    margin-bottom: 3%;
     /* width: 50%; */
-    margin: auto;
+    /* margin: auto; */
+    /* margin: 5% auto; */
 }
 
 .main-view img {
     width: 60%;    
     height: auto;
     margin-left: 40%;
-
-    /* margin-left: 600px */
-    ;
-    
+    /* margin-left: 600px */;
 }
 
 .catch-copy {
@@ -141,17 +140,17 @@ header {
 .news-logo {
     /* margin-left: 400px; */
     margin-left: 25%;
-
+    margin-bottom: 30px;
     margin-top: 30px;
 }
 
 .news-nav {
     width: fit-content;
     /* ↑子要素の幅に合わせる */
-    margin-top: 20px;
     width: 100%;
     /* margin-left: 30%; */
     margin: 10px auto;
+    margin-bottom: 5%;
 }
 
 .news-nav li {
@@ -202,10 +201,13 @@ header {
 .about-logo {
     /* margin: auto; */
     /* margin-top: 40px; */
-    margin: 3% 40%;
+    margin: 2% 40%;
     /* padding-top: 15px; */
-    font-size: 15px;
+    font-size: 20px;
+    padding-top: 2%;
 }
+
+
 
 .about-view {
     display: flex;
@@ -220,16 +222,14 @@ header {
 
 .view {
     margin-top: 80px;
-    /* margin-left: 5%; */
+    margin-left: 15%;
     width: 100%;
 
 }
 
 .view img {
     width: 60%;
-
     height: auto;
-
     bottom: 30px;
     margin-bottom: 40px;
 }
@@ -245,7 +245,7 @@ header {
 
     margin-top: 60px;
     height: auto;
-    font-size: 15px;
+    font-size: 16px;
     padding-top: 20px;
     text-align: left;
 }
@@ -257,31 +257,37 @@ header {
 
 /* **********サービス********** */
 .service-logo {
-    margin-left: 400px;
-    margin-top: 30px;
-    margin: 3% 20%;
+    /* margin-left: 400px; */
+    /* margin-top: 30px; */
+    margin: 3% 15%;
+   
 }
 
 .sevice-wrapper {
     background-color: #d9d9d9;
     width: 1500px;
-
     margin: auto;
 }
+
+.sevice-contents {
+    width: 80%;
+    /* height: auto; */
+
+    margin: 5% auto;
+}
+
 
 /* グリット（３つ合体分） */
 .grid__parent {
     height: auto;
     display: flex;
-    /* margin-top: 20px; */
-
+    
     font-size: 1.0rem;
     justify-content: center;
     /* ↑グリット全体を中央に */
-    /* margin-left: 250px; */
 
     max-width: 1000px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     margin: 0 auto;
 }
 
@@ -360,9 +366,11 @@ header {
 }
 
 .blog-logo {
-    margin-left: 200px;
-    margin-top: 40px;
+    /* margin-left: 200px; */
+    /* margin-top: 40px; */
     margin: 3% 20%;
+    font-size: 20px;
+    padding-top: 2% ;
 }
 
 .flex__item {
@@ -389,7 +397,6 @@ header {
     position: relative;
     border-radius: 10px 10px 10px 10px;
     max-width: 1000px;
-
     margin-bottom: 30px;
 }
 
@@ -468,10 +475,8 @@ header {
     font-weight: bold;
     text-decoration: none;
     border-radius: 25px;
-
-    margin: auto;
-    /* margin-left: 600px; */
-
+    margin: 2% auto;
+       
 }
 
 /* **************会社概要************** */
