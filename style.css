@@ -297,7 +297,7 @@ header {
     text-align: center;
     color: white;
     /* width: 30%; */
-    width: 60%; 
+    width: 50%; 
     height: auto;
     max-width: 1000px;
 }
@@ -312,6 +312,8 @@ header {
 
  .grid-1{
     width: 100%;
+    height: 100%;
+    /* ↑ 枠の高さ指定 */
 } 
 
 .grid-2 {
@@ -330,9 +332,6 @@ header {
     margin: 0 auto;
 }
 
-.box1 img {
-    width: 50%;
-}
 
 /* ＊＊＊＊＊グリットレイアウト＊＊＊＊ */
 
