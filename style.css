@@ -305,7 +305,7 @@ header {
 .grid-1 img {
     /* width: 90%; */
 
-    width: 50%;
+    width: 60%;
     height: auto;
     margin-top: 10px;
 }
@@ -322,7 +322,8 @@ header {
 
 /* グリット右 */
 .grid-2 img {
-    width: 35%;
+    width: 40%;
+    
     height: auto;
     padding-right: 5px;
     margin-top: 10px;
@@ -334,8 +335,9 @@ header {
 /* コンテナ */
 .grid__parent {   
     display: grid;
-    grid-template-rows: 300px 300px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 2fr 2fr;
     justify-content: center;  
 
     justify-items: center;
