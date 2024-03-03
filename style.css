@@ -323,11 +323,15 @@ header {
 /* グリット右 */
 .grid-2 img {
     width: 40%;
-    
+
     height: auto;
     padding-right: 5px;
     margin-top: 10px;
     margin: 0 auto;
+}
+
+.box1 img {
+    width: 50%;
 }
 
 /* ＊＊＊＊＊グリットレイアウト＊＊＊＊ */
@@ -339,7 +343,7 @@ header {
     /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: 2fr 2fr;
     justify-content: center;  
-
+    margin: 0 auto;
     justify-items: center;
     align-items: center;
     max-width: 1000px;
@@ -387,8 +391,9 @@ header {
 .text2 {
     margin: 0 auto;
     position: absolute;
-    top: 60px;
-    margin-left: 180px;
+    /* top: 60px; */
+    top:40%;
+    margin-left: 40%;
     text-align: left;
     max-width: 1000px;
     color: white;
@@ -397,8 +402,9 @@ header {
 .text3 {
     margin: 0 auto;
     position: absolute;
-    top: 60px;
-    margin-left: 180px;
+    /* top: 60px; */
+    top: 40%;
+    margin-left: 40%;
     max-width: 1000px;
     text-align: left;
     color: white;
