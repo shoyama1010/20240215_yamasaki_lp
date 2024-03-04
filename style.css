@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* * { outline: 1px solid red !important;} */
+* { outline: 1px solid red !important;}
 
 body {
     /* width: 1500px; */
@@ -205,6 +205,7 @@ header {
     /* padding-top: 15px; */
     font-size: 20px;
     padding-top: 2%;
+    text-align: center;
 }
 
 
@@ -212,7 +213,6 @@ header {
 .about-view {
     display: flex;
     /* ↑ 画像とtextを横並び */
-    /* width: 1500px; */
     height: auto;
     /* justify-content: center; */
     /* ↑真ん中に寄せる */
@@ -272,7 +272,7 @@ header {
 .sevice-contents {
     width: 80%;   
     margin: 5% auto;
-    max-width: 1500px;
+    max-width: 1000px;
 }
 
 /* グリット左 */
@@ -483,6 +483,7 @@ header {
     font-size: 10px;
     display: flex;
     margin-left: -10px;
+    justify-content: space-between;
 }
 
 .card__tag {
