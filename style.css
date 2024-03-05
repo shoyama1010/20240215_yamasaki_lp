@@ -6,7 +6,8 @@ body {
     /* width: 1500px; */
     max-width: 1500px;
     min-width: 1000px;
-    margin: auto;
+
+    margin: 0 auto ;
 }
 
 /* header */
@@ -137,6 +138,10 @@ header {
 
 /* ****** NEWS ****** */
 
+.news-wrapper {
+    margin: 0 auto;
+}
+
 .news-logo {
     /* margin-left: 400px; */
     margin-left: 25%;
@@ -196,6 +201,7 @@ header {
 /* ******ABOUT ********/
 .about-wrapper {
     background-color: #dedede;
+    margin: 0 auto;
 }
 
 .about-logo {
@@ -300,21 +306,6 @@ header {
     /* ↑グリッドを底辺まで伸ばす */
 } 
 
-/* .grid-2 {
-    width: 100%;
-    height: auto;
-    max-width: 1000px;
-}  */
-
-/* グリット右 */
-/* .grid-2 img {
-    width: 40%;
-
-    height: auto;
-    padding-right: 5px;
-    margin-top: 10px;
-    margin: 0 auto;
-} */
 
 /* ＊＊＊＊＊グリットレイアウト＊＊＊＊ */
 
@@ -556,6 +547,10 @@ table th {
 }
 
 /* ***********問い合わせ******** */
+.contact-wrapper {
+    margin: auto;
+}
+
 .recruit {
     position: relative;
     width: 50%;
