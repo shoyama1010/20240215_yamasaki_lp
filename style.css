@@ -71,8 +71,7 @@ header {
     width: 60%;    
     height: auto;
     margin-left: 40%;
-    
-    margin: auto;
+
 }
 
 .catch-copy {
@@ -96,7 +95,7 @@ header {
 /* キャッチコピー2（大文字） */
 .catch-copy2 {
     position: absolute;
-    /* width: 600px; */
+    text-align: left;
     width: 60%;
     /* ↑画像の大きさと合わせる */
     left: 350px;
@@ -109,7 +108,7 @@ header {
 /* キャッチコピー3（子文字） */
 .catch-copy3 {
     position: absolute;
-    /* width: 300px; */
+    text-align: left;
     width: 60%;
     /* ↑画像の大きさと合わせる */
     left: 350px;
@@ -121,7 +120,7 @@ header {
 /* キャッチコピー4（子文字） */
 .catch-copy4 {
     position: absolute;
-    /* width: 60%; */
+    text-align: left;
     width: 300px;
     left: 350px;
     top: 340px;
