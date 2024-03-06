@@ -410,28 +410,30 @@ header {
 
 .flex__item {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
     width: 30%;
     /* width: 100%; */
-    gap: 40px;
+    gap: 30px;
 }
 
 .wrap {
     width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
 }
 
 /* card_contentの親 */
 .practice__card {
     background-color: white;
-    width: 30%;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     /* margin-bottom: 30px; */
     position: relative;
     border-radius: 10px 10px 10px 10px;
     max-width: 1000px;
+    width: 30%;
     margin-bottom: 30px;
 }
 
