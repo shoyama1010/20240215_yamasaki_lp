@@ -215,8 +215,6 @@ header {
     text-align: center;
 }
 
-
-
 .about-view {
     display: flex;
     /* ↑ 画像とtextを横並び */
@@ -266,8 +264,8 @@ header {
 .service-logo {
     /* margin-left: 400px; */
     /* margin-top: 30px; */
-    margin: 3% 8%;
-    
+    margin-bottom: 3%;
+    text-align: left;
 }
 
 .sevice-wrapper {
@@ -278,7 +276,8 @@ header {
 
 .sevice-contents {
     width: 80%;   
-    margin: 5% auto;
+    margin: 3% auto;
+
     max-width: 1000px;
 }
 
@@ -399,13 +398,14 @@ header {
 /* ********ブログ*************** */
 .blog-wrapper {
     background-color: #dedede;
+    width: 1500px;
     margin: auto;
 }
 
 .blog-logo {
-    /* margin-left: 200px; */
-    /* margin-top: 40px; */
-    margin: 3% 20%;
+    text-align: left;
+    
+    margin: 3% 17%;
     font-size: 20px;
     padding-top: 2% ;
 }
@@ -423,7 +423,6 @@ header {
 
 .wrap {
     width: 1000px;
-    /* max-width: 1000px; */
     margin: 0 auto;
 }
 
