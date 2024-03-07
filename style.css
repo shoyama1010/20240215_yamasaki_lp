@@ -267,7 +267,7 @@ header {
 
 /* **********サービス********** */
 .service-logo {
-    /* margin-left: 400px; */
+    margin-left: 250px;
     /* margin-top: 30px; */
     margin-bottom: 3%;
     text-align: left;
@@ -561,6 +561,8 @@ table th {
 /* ***********問い合わせ******** */
 .contact-wrapper {
     margin: auto;
+
+    width: 1500px;
 }
 
 .recruit {
