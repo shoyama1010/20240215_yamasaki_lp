@@ -140,6 +140,9 @@ header {
 .news-wrapper {
     margin: 0 auto;
     text-align: center;
+
+    width: 1500px;
+
 }
 
 .news-logo {
@@ -203,6 +206,8 @@ header {
 .about-wrapper {
     background-color: #dedede;
     margin: 0 auto;
+
+    width: 1500px;
 }
 
 .about-logo {
@@ -278,7 +283,8 @@ header {
     width: 80%;   
     margin: 3% auto;
 
-    max-width: 1000px;
+    width: 1500px;
+    /* max-width: 1000px; */
 }
 
 /* グリット左 */
@@ -519,7 +525,9 @@ header {
 
 .company-table-wrapper {
     margin: auto;
-    max-width: 1000px;
+    /* max-width: 1000px; */
+    width: 1500px;
+    /* justify-content: center; */
 }
 
 .company-log {
@@ -534,6 +542,7 @@ table {
     margin: 0 auto;
     /* margin-left: 250px; */
     margin-top: 15px;
+    /* justify-content: center; */
 
 }
 
